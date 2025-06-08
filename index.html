@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/index.css">
+    <meta name="description"
+        content="A responsive cocktail recipe app with favorites system. Browse, search, and filter drinks by alcohol type. Saves preferences via localStorage. Built with vanilla JS">
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon-32x32.png">
+    <link rel="canonical" href="https://sadevworks.com/demo/cocktail-collection-app/">
+    <meta name="author" content="nvmwhoiam">
+    <meta name="keywords"
+        content="cocktail, recipe, app, responsive, favorites, search, filter, drinks, alcohol, localStorage, vanilla JS">
+
+    <meta name="robots" content="index, follow">
+    <title>Cocktail Collection App | SADevWorks.com</title>
+
+</head>
+
+<body>
+    <div class="controls">
+        <div class="search_input">
+            <input type="search" placeholder="Search cocktails..." name="search">
+        </div>
+
+        <div class="filter_select">
+            <select id="alcoholFilter" class="alcohol-filter">
+                <option value="all">All Drinks</option>
+                <option value="vodka">Vodka</option>
+                <option value="whiskey">Whiskey</option>
+                <option value="gin">Gin</option>
+                <option value="rum">Rum</option>
+                <option value="cognac">Cognac</option>
+                <option value="tequila">Tequila</option>
+                <option value="beer">Beer</option>
+                <option value="wine">Wine</option>
+                <option value="champagne">Champagne</option>
+                <option value="non-alcoholic">Non-alcoholic</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="cocktail-grid" id="cocktailGrid"> </div>
+
+    <script type="module" src="./assets/js/index.js"></script>
+</body>
+
+</html>

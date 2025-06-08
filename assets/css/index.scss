@@ -1,0 +1,121 @@
+@import "./general/root.scss";
+@import "./general/base.scss";
+@import "./general/icons.css";
+@import "./general/mixin.scss";
+
+.controls {
+    gap: var(--md-p);
+    padding: var(--md-p);
+    background-color: var(--background-color-secondary);
+
+    .filter_select {
+        select {
+            background-color: var(--background-color-secondary);
+        }
+    }
+
+    .search_input {
+        width: 100%;
+        max-width: 720px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        & {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        & {
+            @include Dflex(center);
+        }
+    }
+}
+
+.cocktail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--md-p);
+    padding: var(--md-p);
+
+    .cocktail_card {
+        background: var(--background-color-secondary);
+        border-radius: var(--border-radius-light);
+        box-shadow: var(--card-shadow);
+        overflow: hidden;
+        border: 2px solid var(--background-color);
+        transition: transform 0.3s ease;
+        // &:hover {
+        //     transform: translateY(-5px);
+        // }
+
+        &[data-favorite="true"] {
+            border: 2px solid var(--accent-color);
+        }
+
+        .cocktail_header {
+            background-color: var(--low-opacity);
+
+            .header_type {
+                @include Dflex(space-between);
+
+                .cocktail_type {
+                    background-color: var(--background-color);
+                    padding: 4px 8px;
+                    border-radius: 0 0 0 4px;
+                }
+
+                .alcohol_type {
+                    background-color: var(--background-color);
+                    padding: 4px 8px;
+                    border-radius: 0 0 4px 0;
+                }
+            }
+
+            .header_content {
+                @include Dflex(space-between);
+                padding: var(--md-p);
+
+                .favorite_button {
+                    transition: transform var(--animation-speed);
+
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+
+                    &.active {
+                        color: red;
+                    }
+                }
+            }
+        }
+
+        .cocktail_content {
+            display: flex;
+            flex-direction: column;
+            gap: var(--md-p);
+            padding: var(--md-p);
+
+            .ingredients_list {
+
+                .ingredient_item {
+                    @include Dflex(space-between);
+                    padding: var(--sm-p) 0;
+                    border-bottom: 1px solid var(--border-color);
+                }
+            }
+
+            .content_title {
+                display: block;
+                font-weight: bold;
+                margin-bottom: var(--xs-p);
+            }
+
+            .instructions {
+                line-height: 1.5;
+            }
+        }
+    }
+
+}

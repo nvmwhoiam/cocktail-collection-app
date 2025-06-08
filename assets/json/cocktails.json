@@ -1,0 +1,1888 @@
+[
+    {
+        "id": "1",
+        "name": "Old Fashioned",
+        "is": "Classic",
+        "alcohol": "Whiskey",
+        "ingredients": [
+            {
+                "spirit": "Bourbon",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Sugar",
+                "measurements": [
+                    {
+                        "unit": "g",
+                        "amount": 4
+                    },
+                    {
+                        "unit": "tsp",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "spirit": "Angostura Bitters",
+                "measurements": [
+                    {
+                        "unit": "dashes",
+                        "amount": 2
+                    }
+                ]
+            }
+        ],
+        "glass": "Rocks glass",
+        "garnish": "Orange peel and cherry",
+        "method": "Muddle sugar with bitters and water. Add bourbon and ice. Stir well. Garnish with orange peel and cherry."
+    },
+    {
+        "id": "2",
+        "name": "Espresso Martini",
+        "is": "n/ Classic",
+        "alcohol": "Vodka",
+        "ingredients": [
+            {
+                "spirit": "Vodka",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 45
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 4.5
+                    }
+                ]
+            },
+            {
+                "spirit": "Coffee Liqueur",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Espresso",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    }
+                ]
+            }
+        ],
+        "glass": "Martini glass",
+        "garnish": "Coffee beans",
+        "method": "Shake all ingredients with ice. Double strain into a chilled martini glass. Garnish with coffee beans."
+    },
+    {
+        "id": "3",
+        "name": "Mojito",
+        "is": "Classic",
+        "alcohol": "Rum",
+        "ingredients": [
+            {
+                "spirit": "White Rum",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lime Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Simple Syrup",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Mint",
+                "measurements": [
+                    {
+                        "unit": "leaves",
+                        "amount": 8
+                    }
+                ]
+            }
+        ],
+        "glass": "Highball glass",
+        "garnish": "Mint sprig and lime wheel",
+        "method": "Muddle mint leaves with simple syrup. Add lime juice and rum. Fill with crushed ice. Top with soda water. Garnish with mint sprig and lime wheel."
+    },
+    {
+        "id": "4",
+        "name": "Aperol Spritz",
+        "is": "n/ Classic",
+        "alcohol": "Wine",
+        "ingredients": [
+            {
+                "spirit": "Aperol",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 90
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 3
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "spirit": "Prosecco",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 90
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 3
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "spirit": "Soda Water",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            }
+        ],
+        "glass": "Wine glass",
+        "garnish": "Orange slice",
+        "method": "Build in glass over ice. Add Aperol, then Prosecco, then soda water. Garnish with orange slice."
+    },
+    {
+        "id": "5",
+        "name": "Negroni",
+        "is": "Classic",
+        "alcohol": "Gin",
+        "ingredients": [
+            {
+                "spirit": "Gin",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Campari",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Sweet Vermouth",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            }
+        ],
+        "glass": "Rocks glass",
+        "garnish": "Orange peel",
+        "method": "Stir all ingredients with ice. Strain into a rocks glass over ice. Garnish with orange peel."
+    },
+    {
+        "id": "6",
+        "name": "Virgin Mojito",
+        "is": "n/ Classic",
+        "alcohol": "Non-alcoholic",
+        "ingredients": [
+            {
+                "spirit": "Fresh Lime Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Simple Syrup",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Mint",
+                "measurements": [
+                    {
+                        "unit": "leaves",
+                        "amount": 8
+                    }
+                ]
+            },
+            {
+                "spirit": "Soda Water",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 120
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 4
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 12
+                    }
+                ]
+            }
+        ],
+        "glass": "Highball glass",
+        "garnish": "Mint sprig and lime wheel",
+        "method": "Muddle mint leaves with simple syrup. Add lime juice. Fill with crushed ice. Top with soda water. Garnish with mint sprig and lime wheel."
+    },
+    {
+        "id": "7",
+        "name": "Gin Fizz",
+        "is": "Classic",
+        "alcohol": "Gin",
+        "ingredients": [
+            {
+                "spirit": "Gin",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lemon Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Simple Syrup",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            },
+            {
+                "spirit": "Egg White",
+                "measurements": [
+                    {
+                        "unit": "piece",
+                        "amount": 1
+                    }
+                ]
+            }
+        ],
+        "glass": "Highball glass",
+        "garnish": "Lemon twist",
+        "method": "Dry shake all ingredients. Add ice and shake again. Strain into a highball glass. Top with soda water. Garnish with lemon twist."
+    },
+    {
+        "id": "8",
+        "name": "Cosmopolitan",
+        "is": "n/ Classic",
+        "alcohol": "Vodka",
+        "ingredients": [
+            {
+                "spirit": "Vodka",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 45
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 4.5
+                    }
+                ]
+            },
+            {
+                "spirit": "Triple Sec",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 15
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 1.5
+                    }
+                ]
+            },
+            {
+                "spirit": "Cranberry Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lime Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 15
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 1.5
+                    }
+                ]
+            }
+        ],
+        "glass": "Martini glass",
+        "garnish": "Lime wheel",
+        "method": "Shake all ingredients with ice. Double strain into a chilled martini glass. Garnish with lime wheel."
+    },
+    {
+        "id": "9",
+        "name": "Margarita",
+        "is": "Classic",
+        "alcohol": "Tequila",
+        "ingredients": [
+            {
+                "spirit": "Tequila",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Triple Sec",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lime Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            }
+        ],
+        "glass": "Margarita glass",
+        "garnish": "Lime wheel and salt rim",
+        "method": "Rub rim of glass with lime and dip in salt. Shake ingredients with ice. Strain into glass."
+    },
+    {
+        "id": "10",
+        "name": "Manhattan",
+        "is": "Classic",
+        "alcohol": "Whiskey",
+        "ingredients": [
+            {
+                "spirit": "Rye Whiskey",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Sweet Vermouth",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Angostura Bitters",
+                "measurements": [
+                    {
+                        "unit": "dashes",
+                        "amount": 2
+                    }
+                ]
+            }
+        ],
+        "glass": "Martini glass",
+        "garnish": "Maraschino cherry",
+        "method": "Stir ingredients with ice. Strain into chilled glass. Garnish with cherry."
+    },
+    {
+        "id": "11",
+        "name": "Daiquiri",
+        "is": "Classic",
+        "alcohol": "Rum",
+        "ingredients": [
+            {
+                "spirit": "White Rum",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lime Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Simple Syrup",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            }
+        ],
+        "glass": "Cocktail glass",
+        "garnish": "Lime wheel",
+        "method": "Shake all ingredients with ice. Strain into chilled glass."
+    },
+    {
+        "id": "12",
+        "name": "Martini",
+        "is": "Classic",
+        "alcohol": "Gin",
+        "ingredients": [
+            {
+                "spirit": "Gin",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 75
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 7.5
+                    }
+                ]
+            },
+            {
+                "spirit": "Dry Vermouth",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 15
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 1.5
+                    }
+                ]
+            }
+        ],
+        "glass": "Martini glass",
+        "garnish": "Olive or lemon twist",
+        "method": "Stir ingredients with ice. Strain into chilled glass. Garnish as desired."
+    },
+    {
+        "id": "13",
+        "name": "Whiskey Sour",
+        "is": "Classic",
+        "alcohol": "Whiskey",
+        "ingredients": [
+            {
+                "spirit": "Bourbon",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lemon Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            },
+            {
+                "spirit": "Simple Syrup",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            },
+            {
+                "spirit": "Egg White",
+                "measurements": [
+                    {
+                        "unit": "piece",
+                        "amount": 1
+                    }
+                ]
+            }
+        ],
+        "glass": "Rocks glass",
+        "garnish": "Orange slice and cherry",
+        "method": "Dry shake all ingredients. Add ice and shake again. Strain into glass."
+    },
+    {
+        "id": "14",
+        "name": "Pina Colada",
+        "is": "n/ Classic",
+        "alcohol": "Rum",
+        "ingredients": [
+            {
+                "spirit": "White Rum",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Coconut Cream",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Pineapple Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            }
+        ],
+        "glass": "Hurricane glass",
+        "garnish": "Pineapple wedge and cherry",
+        "method": "Blend all ingredients with ice until smooth. Pour into glass."
+    },
+    {
+        "id": "15",
+        "name": "Moscow Mule",
+        "is": "n/ Classic",
+        "alcohol": "Vodka",
+        "ingredients": [
+            {
+                "spirit": "Vodka",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Ginger Beer",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 120
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 4
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 12
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lime Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 15
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 1.5
+                    }
+                ]
+            }
+        ],
+        "glass": "Copper mug",
+        "garnish": "Lime wheel",
+        "method": "Build in mug over ice. Add vodka, lime juice, and ginger beer."
+    },
+    {
+        "id": "16",
+        "name": "French 75",
+        "is": "Classic",
+        "alcohol": "Gin",
+        "ingredients": [
+            {
+                "spirit": "Gin",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lemon Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 15
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 1.5
+                    }
+                ]
+            },
+            {
+                "spirit": "Simple Syrup",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 15
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 1.5
+                    }
+                ]
+            },
+            {
+                "spirit": "Champagne",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            }
+        ],
+        "glass": "Champagne flute",
+        "garnish": "Lemon twist",
+        "method": "Shake gin, lemon juice, and syrup with ice. Strain into flute. Top with champagne."
+    },
+    {
+        "id": "17",
+        "name": "Dark 'n' Stormy",
+        "is": "n/ Classic",
+        "alcohol": "Rum",
+        "ingredients": [
+            {
+                "spirit": "Dark Rum",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Ginger Beer",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 120
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 4
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 12
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lime Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 15
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 1.5
+                    }
+                ]
+            }
+        ],
+        "glass": "Highball glass",
+        "garnish": "Lime wheel",
+        "method": "Build in glass over ice. Add rum, lime juice, and ginger beer."
+    },
+    {
+        "id": "18",
+        "name": "Boulevardier",
+        "is": "Classic",
+        "alcohol": "Whiskey",
+        "ingredients": [
+            {
+                "spirit": "Bourbon",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 45
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 4.5
+                    }
+                ]
+            },
+            {
+                "spirit": "Campari",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Sweet Vermouth",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            }
+        ],
+        "glass": "Rocks glass",
+        "garnish": "Orange twist",
+        "method": "Stir ingredients with ice. Strain into glass over ice."
+    },
+    {
+        "id": "19",
+        "name": "Paloma",
+        "is": "n/ Classic",
+        "alcohol": "Tequila",
+        "ingredients": [
+            {
+                "spirit": "Tequila",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Grapefruit Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 90
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 3
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 9
+                    }
+                ]
+            },
+            {
+                "spirit": "Soda Water",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            }
+        ],
+        "glass": "Highball glass",
+        "garnish": "Grapefruit wedge",
+        "method": "Build in glass over ice. Add tequila and grapefruit juice. Top with soda water."
+    },
+    {
+        "id": "20",
+        "name": "Sazerac",
+        "is": "Classic",
+        "alcohol": "Whiskey",
+        "ingredients": [
+            {
+                "spirit": "Rye Whiskey",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Peychaud's Bitters",
+                "measurements": [
+                    {
+                        "unit": "dashes",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Simple Syrup",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 7.5
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.25
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 0.75
+                    }
+                ]
+            },
+            {
+                "spirit": "Absinthe",
+                "measurements": [
+                    {
+                        "unit": "rinse",
+                        "amount": 1
+                    }
+                ]
+            }
+        ],
+        "glass": "Rocks glass",
+        "garnish": "Lemon peel",
+        "method": "Rinse glass with absinthe. Stir remaining ingredients with ice. Strain into glass."
+    },
+    {
+        "id": "21",
+        "name": "Tom Collins",
+        "is": "Classic",
+        "alcohol": "Gin",
+        "ingredients": [
+            {
+                "spirit": "Gin",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lemon Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Simple Syrup",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            },
+            {
+                "spirit": "Soda Water",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 90
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 3
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 9
+                    }
+                ]
+            }
+        ],
+        "glass": "Collins glass",
+        "garnish": "Lemon wheel and cherry",
+        "method": "Shake gin, lemon juice, and syrup with ice. Strain into glass. Top with soda water."
+    },
+    {
+        "id": "22",
+        "name": "Mai Tai",
+        "is": "Classic",
+        "alcohol": "Rum",
+        "ingredients": [
+            {
+                "spirit": "White Rum",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Dark Rum",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Orange Curaçao",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 15
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 1.5
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lime Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Orgeat Syrup",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 15
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 1.5
+                    }
+                ]
+            }
+        ],
+        "glass": "Rocks glass",
+        "garnish": "Mint sprig and lime wheel",
+        "method": "Shake all ingredients with ice. Strain into glass over crushed ice."
+    },
+    {
+        "id": "23",
+        "name": "Sidecar",
+        "is": "Classic",
+        "alcohol": "Cognac",
+        "ingredients": [
+            {
+                "spirit": "Cognac",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Triple Sec",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lemon Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            }
+        ],
+        "glass": "Cocktail glass",
+        "garnish": "Sugar rim and lemon twist",
+        "method": "Rim glass with sugar. Shake ingredients with ice. Strain into glass."
+    },
+    {
+        "id": "24",
+        "name": "Bloody Mary",
+        "is": "Classic",
+        "alcohol": "Vodka",
+        "ingredients": [
+            {
+                "spirit": "Vodka",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Tomato Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 120
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 4
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 12
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lemon Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 15
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.5
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 1.5
+                    }
+                ]
+            },
+            {
+                "spirit": "Worcestershire Sauce",
+                "measurements": [
+                    {
+                        "unit": "dashes",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "spirit": "Tabasco",
+                "measurements": [
+                    {
+                        "unit": "dashes",
+                        "amount": 2
+                    }
+                ]
+            }
+        ],
+        "glass": "Highball glass",
+        "garnish": "Celery stalk and lemon wedge",
+        "method": "Build in glass over ice. Add all ingredients and stir well."
+    },
+    {
+        "id": "25",
+        "name": "Gimlet",
+        "is": "Classic",
+        "alcohol": "Gin",
+        "ingredients": [
+            {
+                "spirit": "Gin",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lime Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            },
+            {
+                "spirit": "Simple Syrup",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            }
+        ],
+        "glass": "Cocktail glass",
+        "garnish": "Lime wheel",
+        "method": "Shake all ingredients with ice. Strain into chilled glass."
+    },
+    {
+        "id": "26",
+        "name": "White Russian",
+        "is": "n/ Classic",
+        "alcohol": "Vodka",
+        "ingredients": [
+            {
+                "spirit": "Vodka",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Coffee Liqueur",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "spirit": "Heavy Cream",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 30
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 1
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 3
+                    }
+                ]
+            }
+        ],
+        "glass": "Rocks glass",
+        "garnish": "None",
+        "method": "Build in glass over ice. Add vodka and coffee liqueur. Float cream on top."
+    },
+    {
+        "id": "27",
+        "name": "Last Word",
+        "is": "Classic",
+        "alcohol": "Gin",
+        "ingredients": [
+            {
+                "spirit": "Gin",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            },
+            {
+                "spirit": "Green Chartreuse",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            },
+            {
+                "spirit": "Maraschino Liqueur",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lime Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            }
+        ],
+        "glass": "Cocktail glass",
+        "garnish": "Lime wheel",
+        "method": "Shake all ingredients with ice. Strain into chilled glass."
+    },
+    {
+        "id": "28",
+        "name": "Penicillin",
+        "is": "n/ Classic",
+        "alcohol": "Whiskey",
+        "ingredients": [
+            {
+                "spirit": "Blended Scotch",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 60
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 2
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 6
+                    }
+                ]
+            },
+            {
+                "spirit": "Fresh Lemon Juice",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            },
+            {
+                "spirit": "Honey Syrup",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 22
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.75
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 2.2
+                    }
+                ]
+            },
+            {
+                "spirit": "Ginger Syrup",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 7.5
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.25
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 0.75
+                    }
+                ]
+            },
+            {
+                "spirit": "Islay Scotch",
+                "measurements": [
+                    {
+                        "unit": "ml",
+                        "amount": 7.5
+                    },
+                    {
+                        "unit": "oz",
+                        "amount": 0.25
+                    },
+                    {
+                        "unit": "cl",
+                        "amount": 0.75
+                    }
+                ]
+            }
+        ],
+        "glass": "Rocks glass",
+        "garnish": "Candied ginger",
+        "method": "Shake blended scotch, lemon juice, honey syrup, and ginger syrup with ice. Strain into glass over ice. Float Islay scotch on top."
+    }
+]
