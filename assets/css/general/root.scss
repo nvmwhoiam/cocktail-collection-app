@@ -1,11 +1,4 @@
-// 070624 
-
 :root {
-
-    /* Brand Colors */
-    // --primary-color: #007BFF;
-    // --secondary-color: #6C757D;
-
     --accent-color: hsl(270, 50%, 40%);
     --accent-color-hover: hsl(270, 50%, 30%);
 
@@ -13,8 +6,8 @@
 
     --border-color: hsla(0, 0%, 100%, 0.1);
 
-    --green-color: hsl(126, 69%, 25%);
-    --red-color: hsl(354, 70%, 25%);
+    --success-color: hsl(126, 69%, 25%);
+    --error-color: hsl(354, 70%, 25%);
 
     /* Default low opacity colours */
     --low-opacity: rgba(0, 0, 0, 0.1);
@@ -66,8 +59,6 @@
 :root:has(body.dark) {
     color-scheme: dark;
     /* Default background colours for dark mode */
-    // --background-color: hsl(198, 31%, 6%);
-    // --background-color-secondary: hsl(198, 31%, 7%);
     --background-color: hsl(218, 21%, 15%);
     --background-color-secondary: hsl(218, 21%, 20%);
     --background-color-secondary-hover: hsl(209, 94%, 10%);
@@ -88,8 +79,6 @@
     :root {
         color-scheme: dark;
         /* Default background colours for dark mode */
-        // --background-color: hsl(198, 31%, 6%);
-        // --background-color-secondary: hsl(198, 31%, 7%);
         --background-color: hsl(218, 21%, 15%);
         --background-color-secondary: hsl(218, 21%, 20%);
         --background-color-secondary-hover: hsl(209, 94%, 10%);

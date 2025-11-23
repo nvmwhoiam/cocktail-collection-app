@@ -100,6 +100,59 @@ input[type="number"]::-webkit-inner-spin-button {
     display: none;
 }
 
+a {
+    display: inline-block;
+    text-decoration: underline;
+    transition: color var(--animation-speed);
+    color: var(--text-color);
+    transition: background-color var(--animation-speed);
+
+    &:not(.a_primary, .a_btn) {
+        color: var(--link-color);
+
+        &:hover,
+        &:focus {
+            color: var(--text-color-secondary);
+        }
+    }
+
+    &:focus {
+        text-decoration: none;
+        outline: none;
+        border: none;
+        border-radius: 0;
+    }
+
+    // &.a_btn {
+
+    //     &:hover,
+    //     &:focus {
+    //         background-color: var(--accent-color);
+    //         border-radius: var(--border-radius-light);
+    //     }
+    // }
+
+    &.a_primary {
+        padding: var(--md-p) var(--xl-p);
+        background-color: var(--accent-color);
+        border-radius: var(--border-radius-light);
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            background-color: var(--accent-color-hover);
+        }
+    }
+
+    // &:not(.a_btn) {
+    //     &:hover,
+    //     &:focus {
+    //         text-decoration: none;
+    //         color: var(--accent-color);
+    //     }
+    // }
+}
+
 button {
     font-family: inherit;
     color: var(--text-color);

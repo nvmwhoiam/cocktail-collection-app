@@ -1,5 +1,5 @@
-@import "./general/root.scss";
-@import "./general/base.scss";
+@import "./general/root.css";
+@import "./general/base.css";
 @import "./general/icons.css";
 @import "./general/mixin.scss";
 
@@ -37,7 +37,7 @@
     margin: var(--xl-p) var(--md-p);
 }
 
-.cocktail-grid {
+.cocktail_grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: var(--md-p);
@@ -46,13 +46,13 @@
     .cocktail_card {
         background: var(--background-color-secondary);
         border-radius: var(--border-radius-light);
-        box-shadow: var(--card-shadow);
-        overflow: hidden;
         border: 2px solid var(--background-color);
+        overflow: hidden;
         transition: transform 0.3s ease;
-        // &:hover {
-        //     transform: translateY(-5px);
-        // }
+
+        &:hover {
+            transform: translateY(-5px);
+        }
 
         &[data-favorite="true"] {
             border: 2px solid var(--accent-color);
@@ -122,4 +122,9 @@
         }
     }
 
+}
+
+.footer_container {
+    text-align: center;
+    padding: var(--xl-p) var(--md-p);
 }

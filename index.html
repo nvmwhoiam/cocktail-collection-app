@@ -10,47 +10,58 @@
         content="Responsive cocktail recipe app with favorites, search, and filters by alcohol type. Saves preferences in localStorage. Built with vanilla JavaScript.">
     <link rel="icon" type="image/x-icon" href="../../assets/img/favicon-16x16.png">
     <link rel="icon" type="image/x-icon" href="../../assets/img/favicon-32x32.png">
-    <link rel="canonical" href="https://sadevworks.com/demo/cocktail-collection-app/">
     <meta name="author" content="nvmwhoiam">
     <meta name="keywords"
         content="cocktail, recipe, app, responsive, favorites, search, filter, drinks, alcohol, localStorage, vanilla JS">
 
-    <meta name="robots" content="index, follow">
-    <title>Cocktail Collection App | SADevWorks.com</title>
+    <meta name="robots" content="noindex, nofollow">
+    <title>Cocktail Recipe Collection with Favorites & Search</title>
 
 </head>
 
 <body>
 
-    <div class="controls">
-        <div class="search_input">
-            <input type="search" placeholder="Search cocktails..." name="search">
+    <main class="main_container">
+
+        <div class="controls">
+            <div class="search_input">
+                <input type="search" placeholder="Search cocktails..." name="search">
+            </div>
+
+            <div class="filter_select">
+                <select id="alcoholFilter" class="alcohol-filter" aria-label="Filter by alcohol type">
+                    <option value="all">All Drinks</option>
+                    <option value="vodka">Vodka</option>
+                    <option value="whiskey">Whiskey</option>
+                    <option value="gin">Gin</option>
+                    <option value="rum">Rum</option>
+                    <option value="cognac">Cognac</option>
+                    <option value="tequila">Tequila</option>
+                    <option value="beer">Beer</option>
+                    <option value="wine">Wine</option>
+                    <option value="champagne">Champagne</option>
+                    <option value="non-alcoholic">Non-alcoholic</option>
+                </select>
+            </div>
         </div>
 
-        <div class="filter_select">
-            <select id="alcoholFilter" class="alcohol-filter" aria-label="Filter by alcohol type">
-                <option value="all">All Drinks</option>
-                <option value="vodka">Vodka</option>
-                <option value="whiskey">Whiskey</option>
-                <option value="gin">Gin</option>
-                <option value="rum">Rum</option>
-                <option value="cognac">Cognac</option>
-                <option value="tequila">Tequila</option>
-                <option value="beer">Beer</option>
-                <option value="wine">Wine</option>
-                <option value="champagne">Champagne</option>
-                <option value="non-alcoholic">Non-alcoholic</option>
-            </select>
-        </div>
-    </div>
+        <header class="header_container">
+            <h1>Cocktail Collection App</h1>
+        </header>
 
-    <header class="header_container">
+        <section class="cocktail_grid" id="cocktailGrid"> </section>
 
-        <h1>Cocktail Collection App</h1>
+        <footer class="footer_container">
 
-    </header>
+            <p class="footer_content">
+                Copyright &copy; 2025. All Rights Reserved | Powered By <a href="https://sadevworks.com" hreflang="en"
+                    aria-label="Home page">SADevWorks.com</a>
+            </p>
 
-    <div class="cocktail-grid" id="cocktailGrid"> </div>
+        </footer>
+
+    </main>
+
 
     <script type="module" src="./assets/js/index.js"></script>
 </body>
